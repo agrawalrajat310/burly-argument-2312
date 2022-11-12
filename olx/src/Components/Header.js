@@ -9,7 +9,7 @@ function Header() {
         {/*LOGO ERROR HERE  */}
       </div>
 
-      <div className="location rel">
+      <div className="location rel flex aic">
         <div className="icon-search ico" />
         <input
           className="label s15 font"
