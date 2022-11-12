@@ -1,53 +1,58 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.header {
-  
+.color {
 }
 
+.header {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 70px;
+  z-index: 9;
+  background: #f1f1f1;
+  box-shadow: 0px 2px 2px #dadada;
+}
 
+.header .logo {
+}
 
+.header .logo img {
+  width: 100%;
+}
 
+.header .location {
+}
 
+.header .location .ico {
+}
 
+.header .location .label {
+}
 
+.header .location .arrow {
+}
 
+.header .search {
+}
 
+.header .search .query {
+}
 
+.header .search .go {
+}
 
+.header .search .goHovere {
+}
 
+.header .actions {
+}
 
+.header .actions a {
+}
 
+.header .actions .sell {
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.header .actions .sell:hover {
+}
 
 /* .App {
   text-align: center;
