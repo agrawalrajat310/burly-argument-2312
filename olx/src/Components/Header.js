@@ -2,45 +2,72 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function Header() {
+  const nav = [
+    { ID: 1, label: "Mobile Phones" },
+    { ID: 2, label: "Cars" },
+    { ID: 3, label: "Motorcycles" },
+    { ID: 4, label: "houses" },
+    { ID: 5, label: "TV-Video-Audio" },
+    { ID: 6, label: "Tablets" },
+    { ID: 7, label: "Land & Plots" },
+  ];
   return (
-    <div className="header fixed flex aic">
-      <div className="logo">
-        <img src={require("../UI/olxlogo.png")} alt="olx logo" />
-        {/*LOGO ERROR HERE  */}
+    <React.Fragment>
+      <div className="header fixed flex aic">
+        <div className="logo">
+          <img src={require("../UI/olxlogo.png")} alt="olx logo" />
+          {/*LOGO ERROR HERE  */}
+        </div>
+
+        <div className="location rel flex aic">
+          <div className="icon-search ico s24" />
+          <input
+            className="label s15 font"
+            value="INDIA"
+            placeholder="Your Location"
+          />
+
+          <button className="icon-chevron-down arrow s24" />
+        </div>
+
+        <div className="search flex aic">
+          <input
+            type="text"
+            placeholder="Find cars, Mobiles Phones and more..."
+            className=" font s15"
+          />
+
+          <button className="icon-search go s24 cfff" />
+        </div>
+
+        <div className="actions flex aic">
+          <Link to="/account/signin" className="color fontb s16 noulh noul">
+            Sign In
+          </Link>
+
+          <button className="sell flex color aic">
+            <div className="icon-plus ico s24" />
+            <h2 className="s18 font">Sell</h2>
+          </button>
+        </div>
       </div>
+      {/* SUB-HEADER */}
+      <div className="hnav fixed flex aic">
+        <button className="view-cates flex aic color">
+          <h2 className="s18 font">All Categories</h2>
 
-      <div className="location rel flex aic">
-        <div className="icon-search ico" />
-        <input
-          className="label s15 font"
-          value="INDIA"
-          placeholder="Your Location"
-        />
-
-        <button className="icon-chevron-down arrow" />
-      </div>
-
-      <div className="search flex aic">
-        <input
-          type="text"
-          placeholder="Find cars, Mobiles Phones and more..."
-          className=" font s15"
-        />
-
-        <button className="icon-search go" />
-      </div>
-
-      <div className="actions flex aic">
-        <Link to="/account/signin" className="fontb s15">
-          Sign In
-        </Link>
-
-        <button className="sell">
-          <div className="icon-plus" />
-          <h2 className="s15 font">Sell</h2>
+          <button className="icon-chevron-down arrow s24" />
         </button>
+        {nav.map((item) => {
+          return (
+            <Link
+              to={"/browser/" + item.ID}
+              className="noul noulh color bl font s15"
+            ></Link>
+          );
+        })}
       </div>
-    </div>
+    </React.Fragment>
   );
 }
 

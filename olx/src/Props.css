@@ -29,14 +29,30 @@ h6 {
   position: sticky;
 }
 
-
+input,
+button,
+select,
+textarea {
+  outline: none;
+}
 
 .flex {
   display: flex;
 }
+.bl {
+  display: inline-block;
+}
+
+.ibl {
+  display: block;
+}
 
 .aic {
   align-items: center;
+}
+
+button {
+  cursor: pointer;
 }
 
 .font {
@@ -95,4 +111,8 @@ h6 {
 }
 .noulh:hover {
   text-decoration: underline;
+}
+
+.cfff {
+  color: #ffffff;
 }
