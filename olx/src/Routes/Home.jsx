@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import AddItem from "./AddItem";
+import AddItem from "../Components/AddItem";
 
 function HomePage() {
   const [list, setList] = useState([]);
@@ -10,7 +10,7 @@ function HomePage() {
     if (loading) {
       let _list = [];
 
-      for (let i = 0; i < 20; i++) {
+      for (let i = 0; i < 18; i++) {
         _list.push(<AddItem placeholder={true} />);
       }
 
@@ -22,9 +22,8 @@ function HomePage() {
     <>
       <div className="home-page flex">
         <div className="add-list flex">{list}</div>
-        <button className="load-more fontb c333 anim s20">Load More</button>
       </div>
-
+      <button className="load-more fontb c333 anim s20">Load More</button>
       <div className="app-ribbon flex aic">
         <div className="img">
           <img

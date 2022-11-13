@@ -201,7 +201,8 @@
 
 .load-more {
   margin: 40px auto;
-  display: table;
+  display: flex;
+  flex-direction: column;
   border: 0px;
   background: #fff;
   padding: 12px 25px;
