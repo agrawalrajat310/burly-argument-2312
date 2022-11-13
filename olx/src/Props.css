@@ -116,3 +116,18 @@ button {
 .cfff {
   color: #ffffff;
 }
+
+.anim {
+  transition: all 0.2s linear 0s;
+}
+
+.placeholder {
+  background: #ccc;
+  animation: placeholder 1s linear infinite;
+}
+
+@keyframes placeholder {
+  50% {
+    opacity: 0.5;
+  }
+}

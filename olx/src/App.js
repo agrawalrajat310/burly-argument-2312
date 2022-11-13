@@ -1,8 +1,8 @@
+import React from "react";
 import "./App.css";
 
 import "./Props.css";
 
-import React from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import HomePage from "./Components/Home";
 
