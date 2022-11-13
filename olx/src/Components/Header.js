@@ -3,13 +3,14 @@ import { Link } from "react-router-dom";
 
 function Header() {
   const nav = [
-    { ID: 1, label: "Mobile Phones" },
-    { ID: 2, label: "Cars" },
-    { ID: 3, label: "Motorcycles" },
-    { ID: 4, label: "houses" },
-    { ID: 5, label: "TV-Video-Audio" },
-    { ID: 6, label: "Tablets" },
-    { ID: 7, label: "Land & Plots" },
+    { ID: 1, label: "Cars" },
+    { ID: 2, label: "Motorcycles" },
+    { ID: 3, label: "Mobile Phones" },
+    { ID: 4, label: "For Sale: Houses & Apartments" },
+    { ID: 5, label: "OLX Renew(Mobile)" },
+    { ID: 6, label: "Scooters" },
+    { ID: 7, label: "Commercial & Other Vehicles" },
+    { ID: 8, label: "For Rent: Houses & Apartments" },
   ];
   return (
     <React.Fragment>

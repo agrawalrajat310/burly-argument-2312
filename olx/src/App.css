@@ -67,8 +67,8 @@
   max-width: 50px;
 }
 
-.header .search .goHovere {
-}
+/* .header .search .goHovere {
+} */
 
 .header .actions {
   flex: 1;
@@ -95,8 +95,8 @@
   margin-right: 6px;
 }
 
-.header .actions .sell:hover {
-}
+/* .header .actions .sell:hover {
+} */
 
 .hnav {
   top: 70px;
