@@ -39,6 +39,11 @@ textarea {
 .flex {
   display: flex;
 }
+
+.flex-col {
+  flex-direction: column;
+}
+
 .bl {
   display: inline-block;
 }

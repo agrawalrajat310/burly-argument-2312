@@ -215,68 +215,72 @@
   color: #fff;
 }
 
+.app-ribbon {
+  padding: 0px 18%;
+  background: #f9f9f9;
+}
 
+.app-ribbon .img {
+}
 
+.app-ribbon .img .img {
+}
+.app-ribbon .meta {
+}
 
+.app-ribbon .meta .title {
+}
 
+.app-ribbon .meta .slogan {
+}
 
+.app-ribbon .links {
+}
 
+.app-ribbon .links .title {
+  margin-bottom: 20px;
+}
 
+.app-ribbon .links .as {
+}
+.app-ribbon .links a {
+  margin: 0px 10px 0px 0px;
+}
 
+.app-ribbon .links a:hover {
+}
 
+.footer {
+  padding: 0px 18%;
+  background: #f1f1f1;
+  border-top: 1px #ccc solid;
+}
 
+.footer .block {
+  flex: 1;
+  padding: 20px 0px 50px 0px;
+}
 
+.footer .block .title {
+  margin-bottom: 10px;
+}
 
+.footer .block a {
+  line-height: 1.6;
+}
 
+.footerb {
+  padding: 15px 18%;
+  background: #012f34;
+}
 
+.footerb h2 {
+  flex: 1;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footerb h2 .r {
+  text-align: right;
+}
 
 /* .App {
   text-align: center;
