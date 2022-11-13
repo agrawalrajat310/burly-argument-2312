@@ -18,19 +18,12 @@ function HomePage() {
     }
   }, list);
 
-  return <div className="home-page flex">
-    
-    <div className="add-list flex">
-    {list}
-
-
+  return (
+    <div className="home-page flex">
+      <div className="add-list flex">{list}</div>
+      <button className="load-more fontb c333 anim">Load More</button>
     </div>
-    <button className="load-more fontr c333">
-
-
-Load More
-    </button>
-    </div>
+  );
 }
 
 export default HomePage;

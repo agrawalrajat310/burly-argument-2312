@@ -137,11 +137,9 @@
 
 .home-page {
   padding: 30px 18%;
- 
 }
 
 .add-list {
-  
   flex-wrap: wrap;
 }
 
@@ -202,14 +200,27 @@
 }
 
 .load-more {
-
-
+  margin: 40px auto;
+  display: table;
+  border: 0px;
+  background: #fff;
+  padding: 12px 25px;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 0px 5px #012f34;
+  color: #012f34;
 }
 
 .load-more:hover {
-
-  
+  box-shadow: inset -1px -1px 0px 25px #012f34;
+  color: #fff;
 }
+
+
+
+
+
+
+
 
 
 
