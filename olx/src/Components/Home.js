@@ -8,20 +8,17 @@ function HomePage() {
 
   useEffect(() => {
     if (loading) {
-        let _list = [];
-    
-        for (let i = 0; i < 12; i++) {
-          _list.push(<AddItem placeholder={true} />);
-        }
-    
-        setList(_list);
+      let _list = [];
+
+      for (let i = 0; i < 12; i++) {
+        _list.push(<AddItem placeholder={true} />);
+      }
+
+      setList(_list);
     }
   }, list);
 
-  
-  
-
-  return <div className="home-page">{list}</div>;
+  return <div className="home-page flex">{list}</div>;
 }
 
 export default HomePage;

@@ -131,102 +131,70 @@
   margin-right: 2px;
 }
 
+.hclr {
+  height: 120px;
+}
+
+.home-page {
+  padding: 30px 18%;
+  flex-wrap: wrap;
+}
 
 .add-item {
-
+  min-width: 270px;
+  min-height: 266px;
+  max-width: 270px;
+  max-height: 266px;
+  flex-basis: 20%;
+  margin: 8px;
+  border: 1px #ddd solid;
+  padding: 8px;
 }
 
 .add-item .poster {
-
+  height: 160px;
 }
 
 .add-item .poster .placeholder {
-
 }
 
 .add-item .title {
-
+  margin: 10px 0px;
 }
 
 .add-item .title .placeholder {
-  
+  height: 25px;
+  width: 75%;
 }
 
 .add-item .tagline {
-  
 }
 
 .add-item .tagline .placeholder {
-
-
-  
+  height: 20px;
+  width: 90%;
 }
 
 .add-item .ftr {
-  
+  margin-top: 15px;
 }
 
 .add-item .ftr .location {
-  
+  flex: 2;
 }
 
-
 .add-item .ftr .location .placeholder {
-  
+  height: 12px;
+  max-width: 100px;
 }
 
 .add-item .ftr .stamp {
-  
+  flex: 1;
 }
 
-.add-item .ftr .stamp .placeholder{
-  
+.add-item .ftr .stamp .placeholder {
+  height: 0px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* .App {
   text-align: center;

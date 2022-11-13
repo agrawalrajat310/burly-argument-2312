@@ -68,6 +68,8 @@ function Header() {
           );
         })}
       </div>
+
+      <div className="hclr" />
     </React.Fragment>
   );
 }
