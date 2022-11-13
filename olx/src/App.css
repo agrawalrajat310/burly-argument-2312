@@ -137,6 +137,11 @@
 
 .home-page {
   padding: 30px 18%;
+ 
+}
+
+.add-list {
+  
   flex-wrap: wrap;
 }
 
@@ -195,6 +200,72 @@
 .add-item .ftr .stamp .placeholder {
   height: 0px;
 }
+
+.load-more {
+
+
+}
+
+.load-more:hover {
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* .App {
   text-align: center;
