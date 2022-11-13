@@ -198,7 +198,17 @@
 .add-item .ftr .stamp .placeholder {
   height: 0px;
 }
-
+.nav-ls-btn {
+  border: 1px solid rgb(0, 47, 52);
+  background-color: white;
+  padding: 6px 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 7px;
+  cursor: pointer;
+  text-decoration: none;
+}
 .load-more {
   margin: 40px auto;
   display: flex;

@@ -6,7 +6,7 @@ import "./Props.css";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import HomePage from "./Routes/Home";
 import AddItem from "./Components/AddItem";
-import Header from "./Components/Header";
+// import Header from "./Components/Header";
 import Navbar from "../src/Components/Navbar";
 import AllRoutes from "../src/Routes/AllRoutes";
 import Footer from "./Components/Footer";

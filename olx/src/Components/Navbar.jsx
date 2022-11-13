@@ -48,21 +48,23 @@ function Navbar() {
       top="0"
       zIndex="7"
       borderBottom="1px solid rgb(27, 27, 27)"
-      bg="rgb(15, 6, 23)"
+      bg="rgb(0,47,52)"
     >
       <NavLink to="/">
         <Image h="50px" src={Logo} alt="app logo" mr={4} to="/" />
       </NavLink>
 
       {/* <NavLink to="/" style={({ isActive }) => isActive ? activeStyle : baseStyle}>Home</NavLink> */}
-
+      <Input mr={10} h="30px" borderRadius="20px" placeholder="INDIA" />
       <Spacer />
+
       <Input
         w="370px"
+        h="30px"
         color="white"
         focusBorderColor="purple.500"
         borderColor="rgb(111, 111, 111)"
-        borderRadius="lg"
+        borderRadius="20px"
         placeholder="🔍 Find cars, Mobiles Phones and more... "
       />
       <HStack gap={2}>
@@ -100,16 +102,16 @@ function Navbar() {
           <MenuButton
             as={Button}
             _hover="rgb(34, 26, 41)"
-            bg="rgb(34, 26, 41)"
+            bg="white"
             p={3}
             borderRadius="50%"
           >
             <FaBars style={{ color: "gray" }} />
           </MenuButton>
           <MenuList
-            bg="rgb(15, 6, 23)"
+            bg="#002f34"
             borderColor="rgb(29, 20, 37)"
-            color="gray"
+            color="white"
             borderRadius="lg"
             pr={4}
           >
