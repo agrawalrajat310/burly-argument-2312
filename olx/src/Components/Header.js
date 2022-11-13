@@ -52,7 +52,7 @@ function Header() {
           </button>
         </div>
       </div>
-      {/* SUB-HEADER */}
+      {/* SUB-HEADER - ALL CATEGORIES */}
       <div className="hnav fixed flex aic">
         <button className="view-cates flex aic color">
           <h2 className="s18 font">All Categories</h2>
