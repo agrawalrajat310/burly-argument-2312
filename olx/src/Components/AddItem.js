@@ -14,10 +14,7 @@ function AddItem(props) {
     );
   }
 
-  return <div className="add-item">
-
-    
-  </div>;
+  return <div className="add-item"></div>;
 }
 
 export default AddItem;
