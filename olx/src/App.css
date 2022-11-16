@@ -2,6 +2,11 @@
   color: #002f34;
 }
 
+#cont {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
 .header {
   top: 0px;
   left: 0px;
